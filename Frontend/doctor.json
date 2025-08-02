@@ -1,0 +1,21 @@
+{
+  "doctors": [
+  {"id":1,"name":"Dr. Aditi Sharma","specialization":"Dermatologist","experience":10,"rating":4.6,"location":"Indore, MP","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075839/doc11_mcr47a.png"},
+  {"id":2,"name":"Dr. Neha Kulkarni","specialization":"Pediatricians","experience":7,"rating":4.2,"location":"Raipur, CG","availability":"Not Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075839/doc13_fybfwg.png"},
+  {"id":3,"name":"Dr. Meena Patil","specialization":"Gastroenterologist","experience":12,"rating":4.8,"location":"Nagpur, MH","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075840/doc15_hrajde.png"},
+  {"id":4,"name":"Dr. Suresh Rao","specialization":"Neurologist","experience":9,"rating":4.3,"location":"Bhopal, MP","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075839/doc12_oxkqpg.png"},
+  {"id":5,"name":"Dr. Rakesh Verma","specialization":"General physician","experience":11,"rating":4.7,"location":"Pune, MH","availability":"Not Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075839/doc14_rvpgu9.png"},
+  {"id":6,"name":"Dr. Kavita Menon","specialization":"Gynecologist","experience":15,"rating":4.5,"location":"Delhi","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075838/doc9_njq72m.png"},
+  {"id":7,"name":"Dr. Aman Singh","specialization":"Neurologist","experience":6,"rating":4.0,"location":"Chennai, TN","availability":"Not Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075838/doc8_rmxhra.png"},
+  {"id":8,"name":"Dr. Rajeev Kapoor","specialization":"Pediatricians","experience":13,"rating":4.9,"location":"Kolkata, WB","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075838/doc10_r0bhlc.png"},
+  {"id":9,"name":"Dr. Tanmay Tripathi","specialization":"Dermatologist","experience":8,"rating":4.4,"location":"Hyderabad, TS","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075837/doc7_qsf2nb.png"},
+  {"id":10,"name":"Dr. Vikram Joshi","specialization":"Gynecologist","experience":5,"rating":4.1,"location":"Mumbai, MH","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075836/doc4_rsf3e7.png"},
+  {"id":11,"name":"Dr. Deepak Dubey","specialization":"Gastroenterologist","experience":14,"rating":4.6,"location":"Ahmedabad, GJ","availability":"Not Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075836/doc6_m6ztzu.png"},
+  {"id":12,"name":"Dr. Anjali Mehra","specialization":"General physician","experience":10,"rating":4.3,"location":"Indore, MP","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075836/doc5_i9mrt8.png"},
+  {"id":13,"name":"Dr. Nikhil Bansa","specialization":"Gynecologist","experience":7,"rating":4.2,"location":"Lucknow, UP","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075836/doc3_w9h6k1.png"},
+  {"id":14,"name":"Dr. Swati Jain","specialization":"General physician","experience":9,"rating":4.4,"location":"Jaipur, RJ","availability":"Not Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075836/doc2_sglhxc.png"},
+  {"id":15,"name":"Dr. Anuj Desai","specialization":"Dermatologist","experience":6,"rating":4.1,"location":"Surat, GJ","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/v1754075836/doc1_oeqpqe.png"},
+  {"id":16,"name":"Dr. Sneha Reddy","specialization":"Gastroenterologist","experience":8,"rating":4.0,"location":"Noida, UP","availability":"Not Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/e_background_removal/c_fill,w_411,h_412,f_png/v1754076821/ImageForArticle_21444_17237252394561665_wwes9h.webp"},
+  {"id":17,"name":"Dr. Shalini Nair","specialization":"Pediatricians","experience":11,"rating":4.5,"location":"Bengaluru, KA","availability":"Available","image":"https://res.cloudinary.com/dijdcmpa1/image/upload/e_background_removal/c_fill,w_411,h_412,f_png/v1754076823/photo-1659353888906-adb3e0041693_at0ide.jpg"}
+]
+}

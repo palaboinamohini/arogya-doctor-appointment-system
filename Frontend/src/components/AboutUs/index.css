@@ -1,0 +1,71 @@
+.about-bg-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+.about-heading{
+    font-family: "Roboto";
+    font-size: 35px;
+    color: #3d6e02;
+    font-weight: bold;
+}
+.about-description-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.about-img{
+    width: 50%;
+}
+.about-description{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #3d6e02;
+    text-align: center;
+}
+.our-vision-heading{
+    font-family: "Roboto";
+    font-size: 23px;
+    color: #3d6e02;
+    font-weight: bold;
+    text-align: center;
+}
+.about-why-choose-arogya{
+    width: 80%;
+    margin-top: 15px;
+}
+.about-why-choose-arogya-heading{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #118530;
+    font-weight: 900;
+    
+}
+.about-why-choose-arogya-img{
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .about-description-container{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .about-img{
+        width: 35%;
+        margin-right: 20px;
+    }
+    .about-description{
+        text-align: left;
+        width: 70%;
+    }
+    .our-vision-heading{
+        text-align: left;
+    }
+    .about-why-choose-arogya-heading{
+        font-size: 35px;
+    }
+}

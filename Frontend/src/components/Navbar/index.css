@@ -1,0 +1,109 @@
+.nav-bg-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #E7FEF5;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 15%;
+}
+.nav-logo{
+    width: 60px;
+    height: 50px;
+}
+.nav-link{
+    margin: 8px;
+}
+.nav-logoname{
+    font-family: 'Serif';
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d6e02;
+}
+.nav-items-lg-container{
+    display: none;
+}
+.logout-lg-btn{
+    display: none;
+}
+.nav-items-sm-container{
+    display: flex;
+}
+.decoration{
+    text-decoration: 2px underline #3d6e02;
+}
+.expand-collapse-container {
+  border: 2px solid #3d6e02;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: transparent;
+}
+.expand-toggle-button {
+  background-color: transparent;
+  color: #3d6e02;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width:576px){
+    .nav-item{
+        font-family: 'Roboto';
+        font-size: 10px;
+        color: #118530;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    .nav-logoname{
+        font-size: 30px;
+    }
+    .nav-item{
+        font-size: 13px;
+    }
+    .nav-items-sm-container{
+        display: none;
+    }
+    .nav-items-lg-container{
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+        list-style-type: none;
+    }
+    .logout-lg-btn{
+        display: flex;
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 600;
+        color: #3d6e02;
+        outline: none;
+        border: 1px solid #3d6e02;
+        background-color: transparent;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 12px;
+    }
+}

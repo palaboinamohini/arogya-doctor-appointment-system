@@ -1,0 +1,24 @@
+.special-item-container{
+    margin-bottom: 10px;
+}
+.special-btn{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #3d6e02;
+    outline: none;
+    padding: 8px;
+    border: 1px solid #3d6e02;
+    background-color: #E7FEF5;
+    border-radius: 8px;
+    width: 100%;
+}
+.active-btn{
+    background-color: #3d6e02;
+    color: #E7FEF5;
+}
+
+@media screen and (max-width:768px){
+    .special-item-container{
+        margin: 8px;
+    }
+}

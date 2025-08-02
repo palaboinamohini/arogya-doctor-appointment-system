@@ -1,0 +1,57 @@
+.docCard-container{
+    width: 20%;
+    text-decoration: none;
+    border: 1px solid #3d6e02;
+    background-color: #E7FEF5;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doccard-item{
+    width: 100%;
+}
+.docCard-img{
+    width: 100%;
+}
+.docCard-name{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #3d6e02;
+    font-weight: 800;
+    text-align: center;
+}
+.green{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2de036;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #d40622;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.docCard-specialization{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #3d6e02;
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+    .docCard-container{
+        width: 45%;
+        margin: 8px;
+    }
+}

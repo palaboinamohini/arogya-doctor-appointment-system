@@ -1,0 +1,87 @@
+.contact-bg-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.contact-heading{
+    font-family: "Roboto";
+    font-size: 35px;
+    color: #3d6e02;
+    font-weight: bold;
+}
+.contact-description-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.contact-description-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-img{
+    width: 70%;
+}
+.contact-description{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #3d6e02;
+    text-align: center;
+    line-height: 1.5;
+}
+.contact-description2{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #3d6e02;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+.our-office-heading{
+    font-family: "Roboto";
+    font-size: 23px;
+    color: #3d6e02;
+    font-weight: bold;
+    text-align: center;
+}
+.contact-us-btn{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #3d6e02;
+    background-color: transparent;
+    border: 1px solid #3d6e02;
+    outline: none;
+    padding: 15px;
+    border-radius: 13px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width:768px){
+    .contact-description-container{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .contact-description-container2{
+        align-items: flex-start;
+    }
+    .contact-img{
+        width: 35%;
+        margin-right: 20px;
+    }
+    .contact-description{
+        text-align: left;
+    }
+    .contact-description2{
+        text-align: left;
+    }
+    .our-office-heading{
+        text-align: left;
+    }
+}

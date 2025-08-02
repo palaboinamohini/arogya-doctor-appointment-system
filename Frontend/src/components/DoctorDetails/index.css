@@ -1,0 +1,183 @@
+.dd-bg-container{
+    padding-top: 120px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dd-card-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.dd-img-container{
+    background-color: #3d6e02;
+    background-size: cover;
+    width: 35%;
+    border-radius: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+}
+.dd-img{
+    width: 100%;
+}
+.dd-card-about{
+    width: 70%;
+    border: 1px solid #3d6e02;
+    border-radius: 25px;
+    padding: 20px;
+}
+.dd-heading{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: #3d6e02;
+    margin-top: 0px;
+}
+.dd-star-container{
+    display: flex;
+    align-items: center;
+    color: #3d6e02;
+}
+.dd-icon{
+    margin-left: 15px;
+}
+.dd-star{
+    margin-right: 15px;
+}
+.dd-qualification{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #3d6e02;
+}
+.dd-experience{
+    border: 1px solid #3d6e02;
+    padding: 6px;
+    background-color: #E7FEF5;
+    border-radius: 12px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.dd-about-heading{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d6e02;
+    margin-bottom: 0px;
+}
+.dd-about{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #3d6e02;
+}
+.dd-rating-container{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.dd-fees{
+    font-weight: normal;
+    font-size: 18px;
+}
+.book-appointment-link{
+    text-decoration: none;
+    display: flex;
+    align-self: flex-start;
+}
+.book-appointment{
+    padding: 13px;
+    background-color: #3d6e02;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #E7FEF5;
+    font-weight: 600;
+}
+.rd{
+    margin-top: 35px;
+}
+.rd-list-container{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rd-container{
+    width: 30%;
+    text-decoration: none;
+    border: 1px solid #3d6e02;
+    background-color: #E7FEF5;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rd-item{
+    width: 100%;
+}
+.rd-img{
+    width: 100%;
+}
+.rd-name{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #3d6e02;
+    font-weight: 800;
+    text-align: center;
+}
+.green{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #2de036;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #d40622;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rd-specialization{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #3d6e02;
+    text-align: center;
+}
+    
+
+@media screen and (max-width: 830px) {
+    .dd-card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dd-img-container{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .dd-card-about{
+        width: 100%;
+    }
+    .dd-img{
+        width: 100%;
+    }
+    .rd-container{
+        width: 45%;
+        margin: 8px;
+    }
+}

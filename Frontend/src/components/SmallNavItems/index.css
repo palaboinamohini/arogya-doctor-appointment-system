@@ -1,0 +1,20 @@
+.expand-collapse-container {
+  border: 2px solid #3d6e02;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: transparent;
+}
+.expand-toggle-button {
+  background-color: transparent;
+  color: #3d6e02;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

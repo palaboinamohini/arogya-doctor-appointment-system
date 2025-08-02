@@ -1,0 +1,26 @@
+.drawer-bg-container{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    background-color: #E7FEF5;
+    padding: 0px;
+}
+.drawer-items-container{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.drawer-link{
+    text-decoration: none;
+}
+.drawer-item{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #3d6e02;
+    padding-left: 18px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3d6e02;
+}

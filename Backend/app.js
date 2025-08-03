@@ -64,6 +64,6 @@ app.post('/appointments', (req, res) => {
 
 
 // Run server
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0', () => {
   console.log(`Doctor API running at http://localhost:${PORT}`);
 });

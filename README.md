@@ -75,4 +75,4 @@
     Palaboina Mohini
     Email: palaboina.99267.mohini@gmail.com
     Location: Hemunagar, Bilaspur, Chhattisgarh, India
-    github.link : https://github.com/palaboinamohini/arogya-appointment-system.git
+    github.link : https://github.com/palaboinamohini/arogya-doctor-appointment-system.git

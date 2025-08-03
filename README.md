@@ -12,17 +12,26 @@
 
 🛠️ Tools & Libraries Used
 
-    🔹 Frontend
+    🖥️ Frontend
         React.js – Component-based UI development
         HTML5 – Markup for content structure
         CSS3 – Styling and layout
         JavaScript (ES6+) – Interactivity and logic
+        Environment Variables  – Used to store API base URL (`REACT_APP_API_URL`)
+       ✅ Deployed as a Static Website on [Render.com](https://render.com)
 
-    🔸 Backend
+    🧠 Backend
         Node.js – JavaScript runtime for backend logic
         Express.js – Web framework for handling API requests
         (Optional for future) MongoDB / SQL – For appointment data storage
         (Optional) CORS, body-parser – Middleware support
+        ✅ Deployed as a Web Service on [Render.com](https://render.com)
+    
+    🌐 Deployment (Render.com)
+       🔗  Frontend (Static Website) : [https://arogya-doctor-appointment-system.onrender.com](https://arogya-doctor-appointment-system.onrender.com)
+       🔗  Backend (Web Service) : [https://arogya-doctor-appointment-system-backend.onrender.com](https://arogya-doctor-appointment-system-backend.onrender.com)
+       ✅ Frontend uses backend API via `REACT_APP_API_URL` environment variable
+
 
 🚀 Improvements With More Time
 
@@ -54,6 +63,14 @@
     5. State Management in React
     Challenge: Managing form inputs and selected doctor/time slot.
     Solution: Used useState hooks for controlled inputs and conditional renderin
+
+    6. Frontend and Backend Communication**
+    Challenge: CORS errors and mismatched API routes.
+    Solution: Used `cors` middleware in backend and ensured consistent API base URLs in React frontend.
+
+    7. Deploying Full Stack App**
+    Challenge: Hosting frontend and backend together, configuring environment properly.
+    Solution: Deployed backend on **Render** and frontend on **Netlify/Vercel**, connected using environment variables.
 
 
 📦 How to Run the Project

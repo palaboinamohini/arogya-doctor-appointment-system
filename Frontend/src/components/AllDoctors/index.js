@@ -28,7 +28,7 @@ class AllDoctors extends Component {
   }
 
   componentDidMount() {
-    const API_URL = process.env.REACT_APP_API_URL;
+    const API_URL = process.env.REACT_APP_API_URL
     axios.get(`${API_URL}/doctors`)
       .then(response => {
         const data = Array.isArray(response.data)

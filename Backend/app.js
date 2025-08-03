@@ -13,6 +13,10 @@ app.use(bodyParser.json())
 const readJSON = (file) => JSON.parse(fs.readFileSync(file));
 const writeJSON = (file, data) => fs.writeFileSync(file, JSON.stringify(data, null, 2));
 
+app.get('/', (req, res) => {
+  res.send('Doctor API is working');
+});
+
 // GET all doctors
 app.get('/doctors', (req, res) => {
   const doctors = readJSON('doctors.json');
@@ -29,6 +33,19 @@ app.get('/doctors/:id', (req, res) => {
   if (!doctor) return res.status(404).send("Doctor not found.");
   res.json(doctor);
 });
+
+// GET all appointments
+app.get('/appointments', (req, res) => {
+  const appointmentsPath = path.join(__dirname, 'appointments.json');
+  let appointments = [];
+
+  if (fs.existsSync(appointmentsPath)) {
+    appointments = JSON.parse(fs.readFileSync(appointmentsPath, 'utf-8'));
+  }
+
+  res.json(appointments);
+});
+
 
 app.post('/appointments', (req, res) => {
   const appointmentsPath = path.join(__dirname, 'appointments.json')

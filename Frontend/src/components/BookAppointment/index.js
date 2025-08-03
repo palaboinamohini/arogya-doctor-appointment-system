@@ -27,7 +27,9 @@ const BookAppointment = () => {
     e.preventDefault()
     try {
       const appointmentData = { ...formData, doctorId }
-      await axios.post('http://localhost:5000/appointments', appointmentData)
+      const API_URL = process.env.REACT_APP_API_URL
+      
+      await axios.post(`${API_URL}/appointments`, appointmentData)
       setStatus('success')
       setShowPopup(true)
       setFormData({ patientName: '', contact: '', date: '', reason: '' })

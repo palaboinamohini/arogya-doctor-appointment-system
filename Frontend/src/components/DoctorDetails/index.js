@@ -23,9 +23,10 @@ const DoctorDetails = () => {
 
   useEffect(() => {
     const fetchDoctorAndRelated = async () => {
+    const API_URL = process.env.REACT_APP_API_URL  
       try {
-        const doctorRes = await axios.get(`http://localhost:5000/doctors/${id}`)
-        const allRes = await axios.get(`http://localhost:5000/doctors`)
+        const doctorRes = await axios.get(`${API_URL}/doctors/${id}`)
+        const allRes = await axios.get(`${API_URL}/doctors`)
 
         setDoctor(doctorRes.data)
         const allDoctors = Array.isArray(allRes.data) ? allRes.data : allRes.data.doctors || []
